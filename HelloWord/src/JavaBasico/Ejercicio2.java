@@ -56,11 +56,45 @@ public class Ejercicio2 {
     
     //CICLOS
     int i;
-    for(i=0; i<5; i++)
-    
-    {
-        System.out.println(i);
+    for(i=0; i<5; i++){
+        if(i==3)
+            continue;
+        System.out.println();
     }
+    System.out.println(i);
+    
+     i=2;
+     while (i<20){
+         System.out.println(i);
+            i += 2;
+            
+     }
+     i=2;
+     do {
+         System.out.println(i);
+         i+=2;
+     } while (i<20);
+     
+     if(i<=8){
+         System.out.println("Menor igual que 8");
+     } else if(i>10) {
+         System.out.println("Mayor a 10");
+     } else {
+         System.out.println("Entre 9 y 10");
+     }
+        
+     switch (i) {
+         case 8:
+             System.out.println("Igual que 8");
+             break;
+         case 10:
+             System.out.println("igual que 10");
+             break;
+         default:
+             System.out.println("Diferente");
+             
+     }
+    
     
     i=5;
     i=++i + 2;
@@ -70,5 +104,8 @@ public class Ejercicio2 {
     System.out.println(i);
     }
     
+    
+        
    
+  
 }
