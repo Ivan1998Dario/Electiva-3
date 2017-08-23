@@ -4,7 +4,10 @@
  * and open the template in the editor.
  */
 package JavaBasico;
+
 import java.util.Scanner;
+import java.security.SecureRandom;
+
 /**
  *
  * @author ESTUDIANTE
@@ -104,8 +107,30 @@ public class Ejercicio2 {
     System.out.println(i);
     }
     
+    //Clase 3 (Vectores)
     
+    
+        int i;{
+    int[] vi = new int[12]; //declaracion y creacion del vector
+    
+    System.out.printf("%s%8%n", "Indice", "Valor");
+    for (i=0; i<vi.length; i++)
+    System.out.printf("%5d%8d%n", i, vi[i]);
         
+    //Declaracion y inicializacion
+    
+    int [] vj={32, 27, 14, 18, 95, 64, 90, 70, 60};
+    
+    System.out.printf("%s%8s%n", "Indice", "Valor");
+    for (i=0; i<vj.length; i++)
+    System.out.printf("%5d%8d%n", i, vi[i]);
+
    
-  
+    SecureRandom numAle=new SecureRandom
+   
+            
+    for (i=0; i<vi.length; i++)
+
+        }
+      
 }
